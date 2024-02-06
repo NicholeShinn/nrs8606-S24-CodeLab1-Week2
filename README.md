@@ -1,5 +1,5 @@
-# FILL IN INFO ABOUT YOUR GAME HERE. 
+Clearing all the Satellites in the Sky. 
 
-DO NOT LEAVE IT LIKE THIS!!!
+Week 2 using prefabs & singeltons throughout multiple levels. 
 
-Please? Please, give me content. I'm begging you. It's not that hard. Thanks.
+You're a little guy on a mission to replace all the satellites with the stars again.
