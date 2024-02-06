@@ -658,6 +658,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1303189042576894820, guid: 2aaccbd169015439b9d93661207dffa0, type: 3}
+      propertyPath: scoreText
+      value: 
+      objectReference: {fileID: 5959772468431436709}
+    - target: {fileID: 1303189042576894820, guid: 2aaccbd169015439b9d93661207dffa0, type: 3}
+      propertyPath: targetScore
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 4773499371457880266, guid: 2aaccbd169015439b9d93661207dffa0, type: 3}
       propertyPath: scoreText
       value: 
@@ -711,6 +719,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2aaccbd169015439b9d93661207dffa0, type: 3}
+--- !u!114 &5959772468431436709 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4839308292844905716, guid: 2aaccbd169015439b9d93661207dffa0, type: 3}
+  m_PrefabInstance: {fileID: 5959772468431436708}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &7508382392244010670
 PrefabInstance:
   m_ObjectHideFlags: 0

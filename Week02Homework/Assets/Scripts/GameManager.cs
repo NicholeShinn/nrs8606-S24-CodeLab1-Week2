@@ -35,7 +35,7 @@ public class GameManager : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); // Load Scene through getting the current scene and continuing by 1 in the build settings index
             //SceneManager.LoadScene("Level2"); //Load Scene through targeting a specific scene's name in the index
             
-            targetScore = Mathf.RoundToInt (targetScore + targetScore * 0.5f); // bumping up the target score to a consistent growth curve, relative to the original target score round to Int, rounds to closest integer
+            targetScore = Mathf.RoundToInt (targetScore + 10 * 1f); // bumping up the target score to a consistent growth curve, relative to the original target score round to Int, rounds to closest integer
         }
 
         if (SceneManager.GetActiveScene().name == "finalScene")
