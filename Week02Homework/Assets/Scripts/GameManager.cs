@@ -37,6 +37,11 @@ public class GameManager : MonoBehaviour
             
             targetScore = Mathf.RoundToInt (targetScore + targetScore * 0.5f); // bumping up the target score to a consistent growth curve, relative to the original target score round to Int, rounds to closest integer
         }
+
+        if (SceneManager.GetActiveScene().name == "finalScene")
+        {
+            targetScore = 1000; //unacheivable score, target score stops increasing to trigger build index
+        }
         
     }
 }

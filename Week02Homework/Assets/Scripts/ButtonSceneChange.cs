@@ -10,4 +10,9 @@ public class ButtonSceneChange : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); // Load Scene through getting the current scene and continuing by 1 in the build settings index
     }
+  
+    public void FinalButton() //function to use on click event 
+    {
+        SceneManager.LoadScene("Introduction"); // Load Scene through getting the current scene and continuing by 1 in the build settings index
+    }
 }
